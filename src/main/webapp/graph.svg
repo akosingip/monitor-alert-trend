@@ -1,0 +1,62 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" 
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="100%" height="100%" version="1.1"
+xmlns="http://www.w3.org/2000/svg">
+
+<g transform="translate(250, 40) scale(1.0)">
+	<g font-family = "Verdana" font-weight = "bold" font-size = "20">
+        <text x = "0" y = "25"> Disk Usage</text>
+    </g>
+	<defs>
+	<linearGradient id="blue" x1="0%" y1="100%" x2="0%" y2="0%">
+	<stop offset="0%" style="stop-color:rgb(0,51,102);stop-opacity:1"/>
+	<stop offset="100%" style="stop-color:rgb(0,102,153);stop-opacity:0.5"/>
+	</linearGradient>
+	
+	<linearGradient id="red" x1="0%" y1="100%" x2="0%" y2="0%">
+	<stop offset="0%" style="stop-color:rgb(153,0,0);stop-opacity:1"/>
+	<stop offset="100%" style="stop-color:rgb(153,51,51);stop-opacity:0.5"/>
+	</linearGradient>
+	</defs>
+	<g style="fill:url(#red);stroke:rgb(153,0,0);stroke-width:2">
+	<rect x="0" y="30" width="700" height="30"/>
+	<rect x="0" y="75" width="640" height="30"/>
+	<rect x="0" y="120" width="620" height="30"/>
+	<rect x="0" y="165" width="620" height="30"/>
+	<rect x="0" y="210" width="540" height="30"/>
+	<rect x="0" y="255" width="500" height="30"/>
+	</g>
+	<g style="fill:url(#blue);stroke:rgb(0,102,153);stroke-width:2">
+	<rect x="0" y="300" width="440" height="30"/>
+	<rect x="0" y="345" width="420" height="30"/>
+	<rect x="0" y="390" width="400" height="30"/>
+	<rect x="0" y="435" width="360" height="30"/>
+	</g>
+	<g font-family = "Verdana" font-size = "14" font-weight = "bold">
+    <text x = "705" y = "50">95%</text>
+    <text x = "645" y = "95">92%</text>
+    <text x = "625" y = "140">91%</text>
+    <text x = "625" y = "185">91%</text>
+    <text x = "545" y = "230">87%</text>
+    <text x = "505" y = "275">85%</text>
+    <text x = "445" y = "320">82%</text>
+    <text x = "425" y = "365">81%</text>
+    <text x = "405" y = "410">80%</text>
+    <text x = "365" y = "455">73%</text>
+	</g>
+    <g font-size = "14" font-family = "Verdana" font-weight = "bold" style="stroke-width:0.2;text-anchor:end">
+        
+        <text x = "695" y = "50">codeline goes here.</text>
+        <text x = "635" y = "95">codeline goes here.</text>
+        <text x = "615" y = "140">codeline goes here.</text>
+        <text x = "615" y = "185">codeline goes here.</text>
+        <text x = "535" y = "230">codeline goes here.</text>
+        <text x = "495" y = "275">codeline goes here.</text>
+        <text x = "435" y = "320">codeline goes here.</text>
+        <text x = "415" y = "365">codeline goes here.</text>
+        <text x = "395" y = "410">codeline goes here.</text>
+        <text x = "355" y = "455">codeline goes here.</text>
+    </g>
+
+    </g>
+</svg>
